@@ -18,11 +18,12 @@
 
 
 ### 🛠️ 2. Online Service Booking Engine
-<img width="1906" height="872" alt="image" src="https://github.com/user-attachments/assets/443f3e0d-a6b2-4140-b9fe-a0586d8c5deb" />
 
+* <img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/3e6411fe-9526-48b8-ae9c-a359c92a5bda" />
 * **Digital Scheduling:** Allows users to pick specific dates, times, and types of maintenance services online.
 * **Status Tracking:** Keeps users updated on whether their bike servicing is pending, in-progress, or completed.
-* <img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/3e6411fe-9526-48b8-ae9c-a359c92a5bda" />
+
+<img width="1906" height="872" alt="image" src="https://github.com/user-attachments/assets/443f3e0d-a6b2-4140-b9fe-a0586d8c5deb" />
 
 
 ### 🔒 3. Backend & Security Architecture
