@@ -1,0 +1,690 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Poppins, sans-serif;
+}
+header{
+  background-image:url(./images/Untitled\ design\ \(2\).png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+    position: relative;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+background-color:#FFFFFF;
+
+border-radius: 0 0 35px 35px;
+
+}
+.nav ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+ ul li a{
+  text-decoration: none;
+
+font-weight: bold;
+ font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444;  /* text color */
+}
+ul li a:hover{
+  color:#FF5500;
+}
+.btn{
+padding: 15px;
+
+border: none;
+border-radius: 8px;
+background-color: #FF5500;
+color: white;
+font-weight: bold;
+
+}
+.containerForm{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+background-color: rgba(200, 143, 31, 0.548);
+width: 50%;
+border-radius: 20px;
+padding: 30px;
+}
+
+.form{
+display: flex ;
+width: 40%;
+flex-direction: column;
+gap: 20px;
+}
+.form input{
+  padding:15px;
+  border-radius: 8px;
+}
+.form textarea {
+  padding:15px;
+  border-radius: 8px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  position:absolute;
+  top: 60%;
+  left: 50%;
+ color: white;
+   transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  font-size: 200%;
+  
+}
+.hero p{
+  font-size: smaller;
+}
+
+
+/* staring abous us  */
+
+.container2nd{
+  margin: 20px;
+  height: 800px;
+
+  position: relative;
+
+  
+
+  height: 500px;  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  padding: 0 50px 
+
+
+
+}
+
+
+.about-section {
+  
+  border: 1px solid rgb(180, 166, 198);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 80px ;
+  background: #fff; 
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-left h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-left p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.stat h3 {
+  font-size: 28px;
+  color: #e67e22;
+  margin: 0;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.about-right {
+  flex: 1;
+  text-align: center;
+}
+
+.about-right img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.highlight{
+  color: #FF5500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* designing a card  */
+
+
+.container2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+ padding: 10px 10px 10px 10px;
+margin-top: 10px;
+
+
+
+}
+
+.box1{
+  
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+ 
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px;
+ 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  
+  text-align: center;
+ 
+}
+
+.box1:hover {
+  transform: translateY(-10px);
+
+}
+
+
+.box1 h2 {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #222;
+}
+
+.box1 p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+ .img1 {
+    width: 100%;        /* Ya jo bhi aap ne width set ki hai */
+    height: auto;       /* Image ka aspect ratio kharab nahi hoga */
+    object-fit: contain; /* Card ke andar image stretch nahi hogi */
+    
+    /* Yeh properties browser ki blurring ko band karti hain */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.text{
+ padding: 20px;
+ line-height: 50px;
+  background-position:right;
+  background-size: cover  ;
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.heading{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.para{
+  line-height: 20px;
+  text-align: center;
+
+}
+.h2{
+  margin-left: 10px;
+}
+footer{
+  color: white;
+width: 100%;
+height: 412px;
+background-color:#222
+}
+.footercotainer{
+ padding: 40px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}
+.textset{
+  line-height: 30px;
+  /* border: 3px solid white; */
+width: 210px;
+height: 340px;
+}
+
+
+/* contacy us  */
+.containercon{
+  width: 100%;
+  height: 630px;
+  background-color:#FFF6E4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form{
+  height: 400px;
+  width: 600px;
+background-color: #555;
+  border-radius: 5px;
+}
+.flex{
+  display: flex;
+}
+
+
+.btncontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.h2{
+  padding: 25px;
+  text-align: center;
+}
+
+.servicecontainer{
+  padding: 30px;
+justify-content: space-around;
+  display: flex;
+
+}
+form{
+  margin-left: 20px;
+}
+#contactForm{
+  width: 50%;
+  padding: 50px;
+}
+
+.contaienrcontact{
+ max-width: 1000px;
+  margin: 50px auto;              /* Center horizontally and space vertically */
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+ 
+}
+.leftcotainer{
+  width: 35%;
+  background-color: #FF5500;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.rightcontainer{
+  width: 65%;
+  padding: 40px 30px;
+  background-color: #fff;
+
+}
+
+
+.form-group{
+
+  margin-bottom: 20px;
+}
+ input{
+  width: 200px;
+  padding: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+
+.cart-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cart-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cart-row {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.cart-img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-info {
+    flex: 1;
+}
+
+.cart-info h2 {
+    margin: 0;
+}
+
+.cart-price {
+    color: #ff4c3b;
+    font-weight: bold;
+}
+
+.remove-btn {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cart-summary {
+    text-align: right;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 22px;
+}
+
+.empty-cart {
+    text-align: center;
+    font-size: 20px;
+}
+/* ==========================================================================
+   ADMIN CONTROLS & STOCK MODAL STYLES (NEWLY ADDED)
+   ========================================================================== */
+
+/* Product Card relative setup for positioning icons */
+.box1 {
+    position: relative; /* Taake icons card ke andar hi rahein */
+    transition: transform 0.3s ease;
+}
+
+/* Icons container styling */
+.admin-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+}
+
+/* Individual Admin Buttons */
+.edit-btn, .delete-btn {
+    background: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.edit-btn {
+    color: #e67e22; /* Orange-ish Pencil Icon */
+}
+
+.delete-btn {
+    color: #e74c3c; /* Red Trash Icon */
+}
+
+/* Hover effects for icons */
+.edit-btn:hover {
+    background: #e67e22;
+    color: white;
+    transform: scale(1.1);
+}
+
+.delete-btn:hover {
+    background: #e74c3c;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Stock status text under product description */
+.stock-status {
+    font-size: 13px !important;
+    font-weight: 600;
+    color: #27ae60 !important; /* Green text for stock display */
+    margin: 8px 0 !important;
+}
+
+
+/* ---- MODAL BACKGROUND POPUP ---- */
+.modal {
+    display: none; /* By default hidden rahega */
+    position: fixed;
+    z-index: 2000; /* Taake header/footer ke bhi upar show ho */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Dim background effect */
+    backdrop-filter: blur(4px); /* Piche ka area thoda blur karne ke liye */
+}
+
+/* Modal Box Content */
+.modal-content {
+    background-color: #fff;
+    margin: 12% auto; /* Screen ke center mein lane ke liye */
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 420px; /* Mobile responsive width */
+    text-align: center;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+    animation: slideDown 0.3s ease-out;
+}
+
+/* Modal Open Animation */
+@keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Close (X) Button */
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #888;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-modal:hover {
+    color: #222;
+}
+
+/* Modal Title */
+.modal-content h2 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Plus/Minus Counter Row */
+.stock-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+/* Counter +/- Icon Buttons */
+.counter-btn {
+    background: none;
+    border: none;
+    font-size: 42px;
+    color: #FF5500; /* Matching website theme */
+    cursor: pointer;
+    transition: transform 0.1s, color 0.2s;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.counter-btn:hover {
+    color: #e64400;
+    transform: scale(1.1);
+}
+
+/* Large Number Display for Stock */
+#modalStockDisplay {
+    font-size: 56px;
+    font-weight: bold;
+    color: #FF5500;
+    min-width: 80px;
+    display: inline-block;
+}
+
+/* "units available" subtext */
+.units-text {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 25px !important;
+}
+
+/* Orange Save Stock Button */
+.save-stock-btn {
+    background-color: #FF5500;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 85, 0, 0.2);
+    transition: background 0.2s;
+}
+
+.save-stock-btn:hover {
+    background-color: #e64400;
+}
+/* Card Setup for Right-aligned Icons */
+.box1 {
+    position: relative;
+}
+
+/* Icons placement on the Top-Right */
+.admin-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 15px;
+    z-index: 10;
+}
+
+/* Edit and Delete Buttons styling */
+.edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+}
+
+/* Edit Pencil Icon (Orange/Dark Red color according to theme) */
+.edit-btn {
+    color: #e65100; 
+}
+
+/* Delete Trash Icon (Solid Red) */
+.delete-btn {
+    color: #d32f2f; 
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    transform: scale(1.2); /* Hover karne par halka sa zoom effect */
+}
+
+/* Stock dynamic text layout */
+.stock-status {
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #2e7d32 !important; /* Green color stock text */
+    margin: 10px 0 !important;
+}
