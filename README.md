@@ -1,6 +1,8 @@
 # 🏍️ ZAM-ZAM Autos — Full-Stack Bike Spare Parts & Services Platform
 
 **ZAM-ZAM Autos** is an enterprise-grade, full-stack web application engineered to stream-line motorcycle spare parts retail and online workshop service bookings. Powered by the **Laravel framework** on the backend and a robust **MySQL relational database**, this platform bridges the gap between digital e-commerce and physical automotive servicing.
+<img width="1902" height="868" alt="image" src="https://github.com/user-attachments/assets/b05fbb4d-f1d3-44be-b416-f490cca4ac71" />
+
 
 ---
 
